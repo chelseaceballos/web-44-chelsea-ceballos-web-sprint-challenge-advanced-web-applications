@@ -55,7 +55,7 @@ const Login = () => {
             onChange={handleChange}
           />
 
-          <label htmlFor="password">Password:</label>
+          <label style={{marginLeft: "15px"}} htmlFor="password">Password:</label>
           <input
             id="password"
             data-testid="password"
